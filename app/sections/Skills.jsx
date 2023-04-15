@@ -3,14 +3,14 @@
 import React from "react";
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
-
+import Image from 'next/image';
 import styles from '../styles/styles.jsx';
 import { services } from "../constants/index.jsx";
 import {TypingText} from '../components/CustomText';
 import { fadeIn, staggerContainer, textVariant } from '../utils/index.jsx';
 
 
-const ServiceCard = ({ index, title, imgUrl }) => (
+const ServiceCard = ({ index, title, ImageUrl }) => (
   <Tilt className='sm:w-[160px] w-[140px]'>
     <motion.div
       variants={fadeIn('right', 'tween', 0.2, 1)}
@@ -19,8 +19,8 @@ const ServiceCard = ({ index, title, imgUrl }) => (
       <div
         className='bg-tertiary rounded-[20px] py-3 px-8 min-h-[160px] flex justify-evenly items-center flex-col'
       >
-        <img
-          src={imgUrl}
+        <Image
+          src={ImageUrl}
           alt='web-development'
           className='w-[240px] h-[150px] object-contain'
         />

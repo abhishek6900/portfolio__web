@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import {Type} from '../components/index'
 import styles from '../styles/styles.jsx';
 import { slideIn, staggerContainer, textVariant } from '../utils/index.jsx';
-
+import Image from 'next/image';
 
 const Hero = () => (
 
@@ -41,8 +41,8 @@ const Hero = () => (
         >
           <div className="absolute w-full md:w-6/12 sm:6/12 h-[400px] hero-gradient rounded-[140px] z-[0] -top-[30px]" />
   
-          <img
-            src="/devImg.png"
+          <Image
+            src="/devImage.png"
             alt="hero_cover"
             className="w-full md:w-6/12 sm:w-6/12 sm:h-[400px] h-[350px] object-contain rounded-tl-[140px] z-10 relative"
           />

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import {TypingText} from '../components/CustomText'
 import styles from '../styles/styles.jsx';
 import { fadeIn, staggerContainer } from '../utils/index.jsx';
+import Image from 'next/image';
 
 const About = () => (
     <section id="about" className={`${styles.paddings} relative z-10`}>
@@ -38,7 +39,7 @@ const About = () => (
           </ul>
         </motion.p>
   
-        <motion.img
+        <motion.Image
           variants={fadeIn('up', 'tween', 0.3, 1)}
           src="/arrow-down.svg"
           alt="arrow down"

@@ -8,13 +8,13 @@ export const startingFeatures = [
   
   export const newFeatures = [
     {
-      imgUrl: '/vrpano.svg',
+      ImageUrl: '/vrpano.svg',
       title: 'A new world',
       subtitle:
           'we have the latest update with new world for you to try never mind',
     },
     {
-      imgUrl: '/headset.svg',
+      ImageUrl: '/headset.svg',
       title: 'More realistic',
       subtitle:
           'In the latest update, your eyes are narrow, making the world more realistic than ever',
@@ -23,37 +23,37 @@ export const startingFeatures = [
   
   export const insights = [
     {
-      imgUrl: '/zike.png',
+      ImageUrl: '/zike.png',
       title: 'Zike - Ecommerce Marketplace',
       subtitle:
           'Designed and developed a clean and responsive modern website using NextJs , TailwindCSS and ChakraUi',
     },
     {
-      imgUrl: '/nirbana.jpg',
+      ImageUrl: '/nirbana.jpg',
       title: 'Nirbana Music',
       subtitle:
           'It is a Music app with all the original features available in Spotify',
     },
     {
-      imgUrl: '/chat.png',
+      ImageUrl: '/chat.png',
       title: 'Viberr',
       subtitle:
           'It is a realtime chat-application built with socket.io and ReactJs',
     },
     {
-      imgUrl: '/tesla.png',
+      ImageUrl: '/tesla.png',
       title: 'Tesla Landing Page',
       subtitle:
           'It is a front-end project which is built with Tailwind and Reactjs and is fully responsive.',
     },
     {
-      imgUrl: '/to-do.png',
+      ImageUrl: '/to-do.png',
       title: 'To-Do List',
       subtitle:
           'List that maintains our day to day tasks or list of everything that we have to do, with the most important tasks at the top of the list, and the least important tasks at the bottom',
     },
     {
-      imgUrl: '/drumKit.png',
+      ImageUrl: '/drumKit.png',
       title: 'Drum Kit',
       subtitle:
           'It is a realtime chat-application built with socket.io and ReactJs',
@@ -64,51 +64,51 @@ export const startingFeatures = [
   export const services = [
     {
       title: "Html",
-      imgUrl: '/html.png',
+      ImageUrl: '/html.png',
     },
     {
       title: "Css",
-      imgUrl: '/css.png',
+      ImageUrl: '/css.png',
     },
     {
       title: "Javascript",
-      imgUrl: '/js.png',
+      ImageUrl: '/js.png',
     },
     {
       title: "React",
-      imgUrl: '/react.png',
+      ImageUrl: '/react.png',
     },
     {
       title: "NextJs",
-      imgUrl: '/nextjs.png',
+      ImageUrl: '/nextjs.png',
     },
     {
       title: "Node Js",
-      imgUrl: '/nodejs.png',
+      ImageUrl: '/nodejs.png',
     },
     {
       title: "MongoDb",
-      imgUrl: '/mongodb.png',
+      ImageUrl: '/mongodb.png',
     },
     {
       title: "Postman",
-      imgUrl: '/postman.png',
+      ImageUrl: '/postman.png',
     },
     {
       title: "Tailwind",
-      imgUrl: '/tailwind.png',
+      ImageUrl: '/tailwind.png',
     },
     {
       title: "Java",
-      imgUrl: '/java.png',
+      ImageUrl: '/java.png',
     },
     {
       title: "Figma",
-      imgUrl: '/figma.png',
+      ImageUrl: '/figma.png',
     },
     {
       title: "Bootstrap",
-      imgUrl: '/bootstrap.png',
+      ImageUrl: '/bootstrap.png',
     },
     
   ];

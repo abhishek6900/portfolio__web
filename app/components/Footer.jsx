@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { socials } from '../constants/index';
-
+import Image from 'next/image';
 import styles from '../styles/styles.jsx';
 import { footerVariants } from '../utils/index';
 
@@ -24,7 +24,7 @@ const Footer = () => (
         <div className="flex gap-4">
             
               <a href='https://twitter.com/aBhiSheK___V'>
-                <img 
+                <Image 
                 src='/twitter.svg'
                 alt='Twitter'
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
@@ -32,7 +32,7 @@ const Footer = () => (
 
               </a>
               <a href='https://www.linkedin.com/in/abhishek-vishal-6455a7270/'>
-                <img 
+                <Image 
                 src='/linkedin.svg'
                 alt='linkedin'
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
@@ -40,7 +40,7 @@ const Footer = () => (
 
               </a>
               <a href=''>
-                <img 
+                <Image 
                 src='/instagram.svg'
                 alt='instagram'
                 className="w-[24px] h-[24px] object-contain cursor-pointer"

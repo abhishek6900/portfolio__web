@@ -6,7 +6,7 @@ import styles from '../styles/styles.jsx';
 import { startingFeatures } from '../constants/index.jsx';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/index.jsx';
-
+import Image from 'next/image';
 
 const Experience = () => (
     <section id='experience' className={`${styles.paddings} relative z-10`}>
@@ -21,7 +21,7 @@ const Experience = () => (
           variants={planetVariants('left')}
           className={`flex-[0.75] ${styles.flexCenter}`}
         >
-          <img
+          <Image
             src="/work.png"
             alt="workExp"
             className="rounded-[23px] h-[90%] object-contain"
