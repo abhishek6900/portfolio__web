@@ -3,6 +3,7 @@ import { TypingText, TitleText } from './CustomText';
 import StartSteps from './StartSteps';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
+import Type from './typewriter'
 
 export {
   Navbar,
@@ -11,4 +12,5 @@ export {
   StartSteps,
   InsightCard,
   Footer,
+  Type,
 };
