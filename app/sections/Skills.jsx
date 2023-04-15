@@ -36,7 +36,7 @@ const ServiceCard = ({ index, title, ImageUrl }) => (
 const Skills = () => {
 
   return (
-    <section id='skills' className={`${styles.paddings}`} id="explore">
+    <section id='skills' className={`${styles.paddings}`}>
       <motion.div 
         variants={staggerContainer}
         initial="hidden"
