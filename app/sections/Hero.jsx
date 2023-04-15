@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Type from '../components/typeWriter'
+import {Type} from '../components/index'
 import styles from '../styles/styles.jsx';
 import { slideIn, staggerContainer, textVariant } from '../utils/index.jsx';
 
